@@ -4,11 +4,12 @@ import { TbPhoneCall } from "react-icons/tb";
 import "./styles/TopNavbar.module.css"
 import { Box } from '@chakra-ui/react'
 export default function TopNavbar() {
+
   return (
     <div>
-    <Box w="100%" bg="#f2f3f8" h="40px" className='TopNavbar'>
-        <Box w="88%" m="auto" h="100%" display="flex" justifyContent="flex-end" alignItems="center" className='container'>
-            <Box  w="30%" display="flex" justifyContent="space-between" alignItems="center" className='container-items'>
+    <Box mw="1320px" bg="#f2f3f8" h="40px" className='TopNavbar'>
+        <Box w="1270px" m="auto" h="100%" display="flex" justifyContent="flex-end" alignItems="center" className='container'>
+            <Box  w="430px" display="flex" justifyContent="space-between" alignItems="center" className='container-items'>
                 <Box w="30%" display="flex" justifyContent="space-around" alignItems="center"  className='download-box'>
                     <Box className='download-app'>
                         <AiOutlineMobile/>
@@ -38,4 +39,5 @@ export default function TopNavbar() {
     </Box>
     </div> 
   )
+
 }
